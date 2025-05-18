@@ -15,19 +15,9 @@ A minimalist Chrome extension that transforms your new tab into a personalized d
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
-- Vite (Build Tool)
+- JavaScript (ES7+ with ES Modules and top-level await)
 
 ## 🚀 Getting Started
-
-### Installation
-
-```bash
-git clone https://github.com/Denilson15/dashboard-chrome-extension.git
-cd dashboard-chrome-extension
-npm install
-npm run build
-```
 
 ### Load the Extension in Chrome
 
