@@ -1,19 +1,52 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# 🧭 Dashboard Chrome Extension
+
+A minimalist Chrome extension that transforms your new tab into a personalized dashboard featuring a real-time clock, dynamic greeting, and an inspirational quote. Built with **HTML**, **CSS**, and **JavaScript**, and bundled using **Vite** for efficient development and deployment.
+
+> 💡 No AI was used in the development of this project. AI tools were utilized solely for documentation purposes, such as generating this README. I believe in building a strong foundation in programming while also learning how to effectively use AI tools as part of a modern developer workflow.
+
+## ✨ Features
+
+- 🕒 **Live Clock**: Displays the current time, updating every second.
+- 👋 **Dynamic Greeting**: Personalized greeting based on the time of day (e.g., "Good Morning").
+- 💬 **Inspirational Quote**: Fetches and displays a random quote to motivate users.
+- 🎨 **Clean UI**: Simple and responsive design for an uncluttered new tab experience.
+
+## 📦 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Vite (Build Tool)
+
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+git clone https://github.com/Denilson15/dashboard-chrome-extension.git
+cd dashboard-chrome-extension
 npm install
-npm start
+npm run build
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+### Load the Extension in Chrome
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+1. Open Chrome and navigate to `chrome://extensions/`.
+2. Enable **Developer mode** (toggle in the top right).
+3. Click **Load unpacked** and select the `dist` folder in your project directory.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Enjoy your new tab dashboard!
 
-Happy Coding!
+## 📁 File Structure
+
+```
+dashboard-chrome-extension/
+├── dist/               # Compiled extension ready for deployment
+├── index.html          # Main HTML file
+├── index.css           # Stylesheet
+├── index.js            # JavaScript logic
+├── manifest.json       # Chrome extension manifest
+├── package.json        # Project metadata and scripts
+├── vite.config.js      # Vite configuration
+└── README.md           # Project documentation
+```
